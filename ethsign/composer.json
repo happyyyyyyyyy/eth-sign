@@ -1,0 +1,23 @@
+{
+    "name": "happyyyyyyyyy/ethsign",
+    "description": "ethsign",
+    "type": "library",
+    "authors": [
+        {
+            "name": "happyyyyyyyyy",
+            "email": "gongsi@sdzhihuishidai.com"
+        }
+    ],
+    "require": {
+        "PHP": "^7.0",
+        "simplito/elliptic-php": "1.0.3",
+        "kornrunner/keccak": "~1"
+    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "huigan\\": "src"
+        }
+    }
+}
